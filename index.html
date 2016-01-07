@@ -1,265 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-	
-    <title>Paul Howgego</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Add custom CSS here -->
-	
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/ekko-lightbox.css" rel="stylesheet">
-    <link href="css/flexslider.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-		<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-  </head>
-
-  <body>
-  <div id="boxWrapp">
-    <div class="main-nav clearfix">
-	  <!-- navbar -->
-	<nav class="navbar navbar-inverse" role="navigation">
-        <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#NavCol">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand bg-primary" href="#about">Paul Howgego</a>
-        </div>
-        
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="NavCol">
-         <ul class="nav navbar-nav navbar-right">
-           
-            <li class="current"><a href="#about" class="linear">Home</a></li>            
-            <li><a href="#work" class="linear">Portfolio</a></li>
-            <li><a href="#source" class="linear">Source</a></li>
-          </ul>
-        
-         
-        </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
-	  
-	</div>
-    <!-- Full Page Image Header Area -->
-    <div id="about" class="header">
-
-	<div class="maskHeader"></div>
-	<div class="main-caption">
-		<div class="logo">
-			<img src="img/ic_lightbulb_outline_white_48dp.png" alt="logo" />
-		</div>
-			<!-- slider -->
-	<div id="flex-head" class="flexslider">
-		<ul class="slides">
-			<li>
-				<h1>Paul Howgego</h1>	
-				<h2>Software Engineer</h2>
-			</li>
-			<!--- To add more slides, add elements to the list here -->
-		</ul>
-	</div> 
-    <!-- end slider --> 
-		<a href="#work" class="btn btnAbout btn-clear border-color color-primary btn-lg linear">PORTFOLIO</a>
-	</div><!--  end main caption -->
-			
-    </div>
-	<!-- end header -->
-    <!-- /Full Page Image Header Area -->
-        
-
-    <!-- Portfolio -->
-    <div id="work" class="page clearfix">
-      <div class="container">
-		<div class="row">
-          <div class="col-md-10  col-md-offset-1">
-		    <div class="build title-page">
-				<h2 class="text-center">LATEST WORK</h2>	
-				<div class="line-title bg-primary"></div>
-			</div>
-		   </div><!-- end col -->
-		</div><!-- end row -->
-		   <div class="col-md-12">
-                
-                <ul id="filterOptions" class="clearfix">
-                    <li class="cur"><a class="btn btn-link linear" href="#" data-group="all">All</a></li>
-                    <li><span>/</span></li>
-                    <li><a class="btn btn-link linear" href="#" data-group="games">Games</a></li>
-					<li><span>/</span></li>
-                    <li><a class="btn btn-link linear" href="#" data-group="shaders">Shaders</a></li> 
-                    
-                </ul>
-               
-            </div><!--end-col-->
-		  <div class="col-md-12">
-		  <div class="folio-content clearfix">
-		   <div class="row">
-		   <div class="container_folio clearfix gallery" id="grid">
-			<div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "games"]'>
-			<div class="folio-img">
-				<div class="portfolio-item ">
-					<div class="thumbnail">
-					   <div class="thumb-img">
-					  
-					  <div class="link-attr">
-						    <a href="img/portfolio/super_bubble.png" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Puyo Puyo Clone in C++" class="link-search animated linear"><i class="fa fa-search"></i></a>
-						   <a href="#" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
-					   </div>
-						<img class="linear img-portfolio img-responsive" src="img/portfolio/super_bubble.png" alt="This Is Image">
-					  
-					   
-					   <div class="folio-caption">
-					   <i class="fa fa-caret-up"></i>
-					       <p>Networked Puyo Puyo Clone</p>
-					      
-					   </div>
-					   </div>
-					</div>
-				
-				</div>
-			</div>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "shaders"]'>
-				<div class="folio-img">
-					<div class="portfolio-item">
-						<div class="thumbnail">
-						<div class="thumb-img">
-						 <div class="link-attr">
-						    <a href="img/portfolio/worley.png" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Worley Procedural Texture" class="link-search animated linear"><i class="fa fa-search"></i></a>
-						   <a href="#" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
-					   </div>
-						<img class="linear img-portfolio img-responsive" src="img/portfolio/worley.png" alt="This Is Image">
-						 <div class="link"><a href="#">This Is Folio Link2</a></div>
-						<div class="folio-caption">
-						<i class="fa fa-caret-up"></i>
-					       <p>Worley Pixel Shader</p>
-					   </div>
-						</div>
-					    </div>
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "shaders"]'>
-				<div class="folio-img">
-					<div class="portfolio-item">
-						<div class="thumbnail">
-						<div class="thumb-img">
-						<div class="link-attr">
-						    <a href="img/portfolio/radial.png" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Radial Effect" class="link-search animated linear"><i class="fa fa-search"></i></a>
-						   <a href="#" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
-					   </div>
-						 <img class="linear img-portfolio img-responsive" src="img/portfolio/radial.png" alt="This Is Image">
-						   <div class="link"><a href="#">This Is Folio Link3</a></div>
-						   <div class="folio-caption">
-						   <i class="fa fa-caret-up"></i>
-					       <p>Pixel Shader Radial Effect</p>
-					       </div>
-					       </div>
-						</div>
-					    
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "shaders"]'>
-				<div class="folio-img">
-					<div class="portfolio-item">
-						<div class="thumbnail">
-						<div class="thumb-img">
-						<div class="link-attr">
-						    <a href="img/portfolio/eclipse.png" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Eclipse Pixel Shader with Cloud Effect" class="link-search animated linear"><i class="fa fa-search"></i></a>
-						   <a href="#" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
-					   </div>
-						<img class="linear img-portfolio img-responsive" src="img/portfolio/eclipse.png" alt="This Is Image">
-						  <div class="link"><a href="#">This Is Folio Link4</a></div>
-						  <div class="folio-caption">
-						  <i class="fa fa-caret-up"></i>
-					       <p>Eclipse/Cloud Pixel Shader</p>
-					       </div>
-					     </div>
-						</div>
-					
-					</div>
-				</div>
-			</div>
-			
-		  
-		   </div>
-		  
-		   </div>
-		  </div><!-- end folio content -->
-		  </div><!-- end col -->
-      </div><!--end container-->
-	 
-	 
-    </div>
-    <!-- /Portfolio -->
-    
-    <!--Source code-->
-    <div id="source" class="page page-bgcolor">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Paul Howgego</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Description" lang="en" content="Portfolio">
+		<meta name="author" content="Paul Howgego">
+		<meta name="robots" content="index, follow">
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="assets/css/styles.css">
+	</head>
+	<body>
 		<div class="container">
-		<div class="row">
-          <div class="col-md-10  col-md-offset-1">
-		    <div class="build title-page">
-				<h2 class="text-center">SOURCE CODE LINKS</h2>	
-				<div class="line-title bg-primary"></div>
+			<div class="header">
+				<h1 class="header-heading">Paul Howgego's Portfolio</h1>
 			</div>
-		   </div><!-- end col -->
-		</div><!-- end row -->
-	  	<div class="row">
-			Link 1 <br>
-			Link 2 <br>
-			Link 3 <br>
-		</div><!-- end row -->
-	
-	  </div><!-- end container -->
-	</div>
-    <!--contact-->
-    
-    <!-- Footer -->
-    <footer class="bg-black">
-      <div class="container">
-        <div class="row">
-			<div class="col-md-6 ">
-				<div class="cp-right">
-					<p>Based on template from OmahPSD. &copy; 2014 <a href="http://omahpsd.com" class="color-primary linear">OmahPSD</a>. All Rights Reserved. </p>
-				</div><!-- end build -->
-			</div><!-- end col -->
-					
-        </div>
-      </div>
-    </footer>
-    <!-- /Footer -->
-
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-	<script src="js/jquery.sticky.js" ></script>
-	 <script src="js/jquery.nav.js"></script>
-    <script src="js/jquery.scrollTo.js" ></script>
-    <script src="js/jquery.flexslider.js" ></script>
-   <script type="text/javascript" src="js/ekko-lightbox.js"></script>
-   <script src="js/jquery.easing.1.3.js" ></script>
-   <script src="js/jquery.shuffle.js" ></script>
-    <script src="js/script.js"></script>
-
-    <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
-
-  </div>
-  </body>
-
+			<div class="nav-bar">
+				<ul class="nav">
+					<li><a href="#games">Games</a></li>
+					<li><a href="#shaders">Shaders</a></li>
+				</ul>
+			</div>
+			<div class="content">
+				<div class="main" id="games">
+                    <h1>Complete Games</h1>
+					<h2>Super Bubble : A Puyo Puyo Clone</h2>
+                    <p><img class="img-responsive" src="./assets/img/super_bubble.png" alt="Super Bubble Screen Shot"></p>
+                    <p>
+                    <a href=''>Windows executable</a><br>
+                    <a href=''>Source code</a>
+                    </p>
+                    <p>Better known as Dr. Robotnik's Mean Bean Machine for Sega Mega Drive, this version has been written in C++
+                    and uses OpenGL for rendering. My starting point was a handful of classes for resource management and sprite rendering
+                    from <a href='http://learnopengl.com'>learnopengl.com</a>. I extended the shaders to support sprite clipping
+                    and implemented the gameplay.
+                    This also includes networked multi-play using a very simple protocol and making use of the <a href='http://enet.bespin.org'>ENet library</a>.
+                    </p>                    
+                    <hr>
+                </div>
+                <div class ="main" id="shaders">
+                    <h1>Pixel Shaders</h1>
+                    <p>
+                    I enjoy writing pixels shaders on <a href='http://glslsandbox.com'>glslsandbox.com</a>. The vertex shader is fixed and only
+                    a full-screen quad is displayed. The effects are created completly in the pixel shader.
+                    </p>
+                    
+                    <h2>Cellular Procedural Texture</h2>
+                    <p><img class="img-responsive" src="./assets/img/worley.png" alt="Worley Shader Screen Shot"></p>
+                    <p>                    
+                    <a href=''>Live code</a>
+                    </p>
+                    <p>
+                    I implemented this after reading about cellular texturing algorithms in the excellent book: 
+                    <a href='https://books.google.co.uk/books/about/Texturing_Modeling.html?id=bDlSJd8GfMcC'>Texturing and Modelling, A Procedural Approach</a>.
+                    </p>
+                    <hr>
+                    
+                    <h2>Radial Effect</h2>
+                    <p><img class="img-responsive" src="./assets/img/radial.png" alt="Radial Effect Screen Shot"></p>
+                    <p>                    
+                    <a href=''>Live code</a>
+                    </p>
+                    <p>
+                    Here I was experimenting with polar coordinates.
+                    </p>
+                    <hr>
+                    
+                    <h2>Eclipse</h2>
+                    <p><img class="img-responsive" src="./assets/img/eclipse.png" alt="Eclipse Screen Shot"></p>
+                    <p>                    
+                    <a href=''>Live code</a>
+                    </p>
+                    <p>
+                    I created this on the day of the 2015 eclipse. The real eclipse was very disapointing as it was cloudy. So I was
+                    inspired to create this. I came up with the eclipse effect and then later added clouds using an algorithm by ?.
+                    </p>
+                    <hr>
+				</div>
+			</div>
+			<div class="footer">
+				&copy; Copyright 2015 Paul Howgego
+			</div>
+		</div>
+	</body>
 </html>
